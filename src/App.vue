@@ -6,16 +6,15 @@
     <router-link to="/projects">Projects</router-link> |
     <router-link to="/contact">Contact</router-link>
   </nav> -->
-  <Navbar/>
+  <NavComp/>
   <router-view/>
 
 </template>
 <script>
-import  Navbar  from '@/components/Navbar.vue'
-// import Navbar from './components/navbar.vue'
+import NavComp from './components/NavComp.vue'
 
 export default {
-   components: {Navbar}
+   components: {NavComp}
 }
 </script>
 

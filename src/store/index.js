@@ -3,23 +3,34 @@ import axios from 'axios'
 
 export default createStore({
   state: {
-    about:[]
+    about:[],
+    resume:[]
   },
   getters: {
   },
   mutations: {
     setAbout(state,data){
       state.about= data
+    },
+    setResume(state,data){
+      state.resume=data
     }
   },
   actions: {
-    fetchData(context){
+    fetchDataAbout(context){
      axios.get( "http://localhost:3000/about")
      .then((a)=>{
       console.log(a.data[0]);
       context.commit("setAbout", a.data[0] )
      })
-    } 
+    } ,
+    fetchDataResume(context){
+      axios.get( " http://localhost:3000/resume")
+      .then((r)=>{
+       console.log(r.data[0]);
+       context.commit("setResume", r.data[0] )
+      })
+     }
   },
   modules: {
   }

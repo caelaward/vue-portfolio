@@ -10,12 +10,12 @@
 <script>
 export default {
     computed:{
-        fetchData(){
-            this.$store.dispatch('fetchData')
+        fetchDataAbout(){
+            this.$store.dispatch('fetchDataAbout')
         }
     },
     mounted(){
-        this.fetchData
+        this.fetchDataAbout
     }
 }
 </script>

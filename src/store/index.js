@@ -4,7 +4,9 @@ import axios from 'axios'
 export default createStore({
   state: {
     about:[],
-    resume:[]
+    resume:[],
+    projects:[],
+    testimonials:[]
   },
   getters: {
   },
@@ -14,6 +16,12 @@ export default createStore({
     },
     setResume(state,data){
       state.resume=data
+    },
+    setProjects(state,data){
+      state.projects=data
+    },
+    setTestimonials(state,data){
+      state.testimonials=data
     }
   },
   actions: {
@@ -29,6 +37,20 @@ export default createStore({
       .then((r)=>{
        console.log(r.data[0]);
        context.commit("setResume", r.data[0] )
+      })
+     },
+     fetchDataProjects(context){
+      axios.get( "http://localhost:3000/projects")
+      .then((p)=>{
+       console.log(p.data);
+       context.commit("setProjects", p.data )
+      })
+     },
+     fetchDataTestimonials(context){
+      axios.get( "http://localhost:3000/testimonials")
+      .then((t)=>{
+       console.log(t.data);
+       context.commit("setTestimonials", t.data )
       })
      }
   },

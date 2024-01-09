@@ -5,5 +5,85 @@
            "hobbies":"My hobbies",
            "url":""
         }
+    ],
+    "resume": [
+        {
+            "experience":"my experience",
+            "description1": "Calla",
+            "description2": "Morgan",
+            "skills":"my skills"
+        }
+       
+    ],
+    "projects": [
+        {
+            "project":"Calculator",
+            "description":"Calculator made with HTML and CSS.",
+            "image":"Calculator",
+            "vercel":"Calculator",
+            "github":"Calculator"
+        },
+        {
+            "project":"E-commerce",
+            "description":"Website made with HTML and CSS",
+            "image":"https://i.postimg.cc/43kNPXnz/Screenshot-2023-10-31-152715.png",
+            "vercel":"https://bakery-tawny.vercel.app/",
+            "github":"https://github.com/caelaward/Bakery.git"
+        },
+        {
+            "project":"firstProject",
+            "description":"secondProject",
+            "image":"thirdProject",
+            "vercel":"fourthProject",
+            "github":"fifthProject"
+        },
+        {
+            "project":"firstProject",
+            "description":"secondProject",
+            "image":"thirdProject",
+            "vercel":"fourthProject",
+            "github":"fifthProject"
+        },
+        {
+            "project":"firstProject",
+            "description":"secondProject",
+            "image":"thirdProject",
+            "vercel":"fourthProject",
+            "github":"fifthProject"
+        },
+        {
+            "project":"firstProject",
+            "description":"secondProject",
+            "image":"thirdProject",
+            "vercel":"fourthProject",
+            "github":"fifthProject"
+        }
+    ],
+    "testimonials": [
+        {
+            "name":"person1",
+            "description":"testimonial1"
+        },
+        {
+            "name":"person2",
+            "description":"testimonial2"
+        },
+        {
+            "name":"person3",
+            "description":"testimonial3"
+        },
+        {
+            "name":"person4",
+            "description":"testimonial4"
+        },
+        {
+            "name":"person5",
+            "description":"testimonial5"
+        },
+        {
+            "name":"person6",
+            "description":"testimonial6"
+        }
     ]
+
 }

@@ -8,13 +8,18 @@
   </nav> -->
   <NavComp/>
   <router-view/>
+  <Footer/>
 
 </template>
 <script>
 import NavComp from './components/NavComp.vue'
+import Footer from './components/Footer.vue'
 
 export default {
-   components: {NavComp}
+   components: {
+    NavComp,
+    Footer
+    }
 }
 </script>
 

@@ -13,16 +13,45 @@
   <!-- <p>{{$store.state.resume.experience}}</p>
   <p>{{$store.state.resume.skills}}</p>
      -->
-     
+     <div class="container" id="resume-container">
      <h1>Resume</h1>
-     <p>{{$store.state.resume.description}}</p>
-     <!-- <h1>Education</h1>
-     <p>{{$store.state.education.name}}</p> -->
+     
+      <div v-for="resume in $store.state.resume" :key="resume" >
+   
+     <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded fw-bold">
+      {{resume.experience}}
+     <p>{{resume.description}}</p>
+     </div>
+     
+    </div>
+     </div>
+
+     
+     <h1>Education</h1> 
+    <div v-for="education in $store.state.education" :key="education" >
+    
+  <div class="container" id="education-container">
+ <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle m-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    {{education.name}}
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item p-5" href="#">{{education.name}}</a></li>
+    <li><a class="dropdown-item" href="#">{{education.description}}</a></li>
+   
+  </ul>
+</div>
+  </div>
+</div>
+
+
+     
+  
    <h1>Skills</h1>
-   <div class="container" id="skill-container">
+   <div class="container " id="skill-container">
    <div v-for="skill in $store.state.skills" :key="skill" >
-     <div class="card mb-3" style="max-width: 540px;">
-   <div class="row g-0">
+     
+   <!-- <div class="row g-0">
     <div class="col-md-4">
       <img src="" class="img-fluid rounded-start" alt="...">
     </div>
@@ -33,8 +62,22 @@
       </div>
     </div>
   </div>
+</div> -->
+<div class="card mb-3 " style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+       <h5 class="card-title">{{skill.type}}</h5>
+        <p class="card-text">{{skill.description}}</p>
+        
+      </div>
+    </div>
+  </div>
 </div>
-</div>
+   </div>
 </div>
  </template>
  

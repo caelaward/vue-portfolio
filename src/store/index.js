@@ -27,6 +27,9 @@ export default createStore({
     },
     setSkills(state,data){
       state.skills=data
+    },
+    setEducation(state,data){
+      state.education=data
     }
 
     
@@ -42,8 +45,8 @@ export default createStore({
     fetchDataResume(context){
       axios.get( " http://localhost:3000/resume")
       .then((r)=>{
-       console.log(r.data[0]);
-       context.commit("setResume", r.data[0] )
+       console.log(r.data);
+       context.commit("setResume", r.data )
       })
      },
      fetchDataProjects(context){

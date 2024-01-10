@@ -9,50 +9,63 @@
     ],
     "resume": [
         {
-            "experience":"my experience",
-            "description": "experinceDescr"    
+            "experience":"Children's Montesorri Workshop",
+            "description": "Worked as an assistant teacher for four months."    
+        },
+        {
+            "experience":"ARCC",
+            "description": "Done data capturing part time during holidays in 2022 ."
+        },
+        {
+            "experience":"Au pair",
+            "description": "Done au pair work during 2022 for eight months."
+        },
+        {
+            "experience":"Voluntary work",
+            "description": "Volunteered at different children's Homes during 2020-2022 as well ."
         }
+        
        
     ],
     "skills":[
         {
             "type":"HTML",
-            "description":"",
+            "description":"Intermediate",
             "image":""
         },
         {
             "type":"CSS",
-            "description":"",
+            "description":"Intermediate",
             "image":""
         },
         {
             "type":"Bootstrap",
-            "description":"",
+            "description":"Intermediate",
             "image":""
         },
         {
             "type":"Javascript",
-            "description":"",
+            "description":"Beginner",
             "image":""
         },
         {
             "type":"Vue",
-            "description":"",
+            "description":"Beginner",
             "image":""
         }
     ],
     "Education":[
         {
             "name":"Groote Schuur High School",
-            "description":""
-        },
-        {
-            "name":"FreeCode Camp",
-            "description":""
+            "description":"Completed matric in 2021 with a bacherlors degree"
         },
         {
             "name":"Life Choices Academy",
-            "description":""
+            "description":"Started studying with Life Choices Academy in 2023 and currently finishing my course"
+        },
+        {
+            "name":"FreeCode Camp",
+            "description":"Started with Free Code Camp in 2021 and upskilled myself in my free time."
         }
     ],
     "projects": [

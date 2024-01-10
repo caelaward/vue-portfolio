@@ -1,3 +1,4 @@
+
 {
     "about": [
         {
@@ -9,11 +10,50 @@
     "resume": [
         {
             "experience":"my experience",
-            "description1": "Calla",
-            "description2": "Morgan",
-            "skills":"my skills"
+            "description": "experinceDescr"    
         }
        
+    ],
+    "skills":[
+        {
+            "type":"HTML",
+            "description":"",
+            "image":""
+        },
+        {
+            "type":"CSS",
+            "description":"",
+            "image":""
+        },
+        {
+            "type":"Bootstrap",
+            "description":"",
+            "image":""
+        },
+        {
+            "type":"Javascript",
+            "description":"",
+            "image":""
+        },
+        {
+            "type":"Vue",
+            "description":"",
+            "image":""
+        }
+    ],
+    "Education":[
+        {
+            "name":"Groote Schuur High School",
+            "description":""
+        },
+        {
+            "name":"FreeCode Camp",
+            "description":""
+        },
+        {
+            "name":"Life Choices Academy",
+            "description":""
+        }
     ],
     "projects": [
         {
@@ -87,8 +127,8 @@
         },
         {
             "image":"",
-            "name":"person6",
-            "description":"testimonial6"
+            "name":"Onika Sileku",
+            "description":""
         }
     ]
 

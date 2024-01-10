@@ -1,3 +1,4 @@
+
 import { createStore } from 'vuex'
 import axios from 'axios'
 
@@ -5,6 +6,7 @@ export default createStore({
   state: {
     about:[],
     resume:[],
+    skills:[],
     projects:[],
     testimonials:[]
   },
@@ -22,7 +24,12 @@ export default createStore({
     },
     setTestimonials(state,data){
       state.testimonials=data
+    },
+    setSkills(state,data){
+      state.skills=data
     }
+
+    
   },
   actions: {
     fetchDataAbout(context){
@@ -51,6 +58,20 @@ export default createStore({
       .then((t)=>{
        console.log(t.data);
        context.commit("setTestimonials", t.data )
+      })
+     },
+     fetchDataSkills(context){
+      axios.get( "http://localhost:3000/skills")
+      .then((s)=>{
+       console.log(s.data);
+       context.commit("setSkills", s.data )
+      })
+     },
+     fetchDataEducation(context){
+      axios.get( " http://localhost:3000/Education")
+      .then((e)=>{
+       console.log(e.data);
+       context.commit("setEducation", e.data )
       })
      }
   },

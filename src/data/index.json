@@ -1,4 +1,6 @@
 
+
+
 {
     "about": [
         {
@@ -46,6 +48,11 @@
         {
             "type":"Javascript",
             "description":"Beginner",
+            "image":""
+        },
+        {
+            "type":"Git",
+            "description":"Intermediate",
             "image":""
         },
         {
@@ -115,31 +122,32 @@
     ],
     "testimonials": [
         {
-            "image":"",
+            "image":"https://cdn-thumbs.imagevenue.com/d8/e9/fc/ME17GHG7_t.jpg",
             "name":"Tashreeq Lee",
             "description":" Caela Morgan Ward is one of the most reliable people I know. She is always there when I need her, no matter what. She is always willing to lend a helping hand and has a positive attitude that is contagious. She is also very organized and efficient, which makes her a great asset to any team. I would highly recommend her for any project or job that she is interested in. She is a great friend and an even better colleague."
         },
         {
-            "image":"",
-            "name":"Chrishano Burns",
-            "description":" Caela is such an amazing person! She is very well driven and educated. She strives to become a perfectionist developer and inspiring personality she drive others to do better. I highly recommend her to have her with when it comes to coding."
-        },
-        {
-            "image":"",
-            "name":"Unity Demas",
-            "description":" Caela is a dedicated and passionate frontend developer. Her passion for frontend development is truly motivating, as evidenced by the excellent work she does. She offers originality and innovation to every project, bringing user interfaces to life with her own flair. Caela's dedication to remain up to date on the latest online technologies keeps her at the forefront of her field. Her passion for frontend development is contagious, and it's a pleasure to work with someone who is both passionate and accomplished in this field."
-        },
-        {
-            "name":"Haniem Pietersen",
-            "description":"Caela is a passionate hard working individual who always gives her full potential in any task given to her.  Caela is known for her creative and unique skills. She is a self motivated person who knows how to manage her time ."
-        },
-        {
-            "image":"",
+            "image":"https://cdn-thumbs.imagevenue.com/34/b9/6b/ME17GHCA_t.png",
             "name":"Matthew Brown",
             "description":" Caela Ward is an an amazing person with a great personality. Her smile lights up the room she walks in and creates a sense of warmth. Her work ethic is outstanding and she really grasps work well. I would reccomend Caela as someone who is good at designing websites."
         },
         {
-            "image":"",
+            "image":"https://cdn-thumbs.imagevenue.com/1d/bf/a2/ME17GHEJ_t.jpg",
+            "name":"Chrishano Burns",
+            "description":" Caela is such an amazing person! She is very well driven and educated. She strives to become a perfectionist developer and inspiring personality she drive others to do better. I highly recommend her to have her with when it comes to coding."
+        },
+        {
+            "image":"https://cdn-thumbs.imagevenue.com/86/b0/f9/ME17GHJ1_t.jpg",
+            "name":"Unity Demas",
+            "description":" Caela is a dedicated and passionate frontend developer. Her passion for frontend development is truly motivating, as evidenced by the excellent work she does. She offers originality and innovation to every project, bringing user interfaces to life with her own flair. Caela's dedication to remain up to date on the latest online technologies keeps her at the forefront of her field. Her passion for frontend development is contagious, and it's a pleasure to work with someone who is both passionate and accomplished in this field."
+        },
+        {
+            "image":"https://cdn-thumbs.imagevenue.com/91/7d/08/ME17GHJO_t.jpg",
+            "name":"Haniem Pietersen",
+            "description":"Caela is a passionate hard working individual who always gives her full potential in any task given to her.  Caela is known for her creative and unique skills. She is a self motivated person who knows how to manage her time ."
+        },
+        {
+            "image":"https://cdn-thumbs.imagevenue.com/64/e8/83/ME17GHIQ_t.jpg",
             "name":"Onika Sileku",
             "description":""
         }

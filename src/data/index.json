@@ -32,33 +32,33 @@
     "skills":[
         {
             "type":"HTML",
-            "description":"Intermediate",
-            "image":""
+            "description":"Intermediate. I learnt HTML through FreeCode Camp and done multiple projects using HTML.",
+            "image":"https://cdn-thumbs.imagevenue.com/bc/2b/22/ME17GHK7_t.png"
         },
         {
             "type":"CSS",
-            "description":"Intermediate",
-            "image":""
+            "description":"Intermediate. I learnt CSS through FreeCode Camp and done multiple projects using CSS.",
+            "image":"https://cdn-thumbs.imagevenue.com/96/1f/78/ME17GHKQ_t.png"
         },
         {
-            "type":"Bootstrap",
-            "description":"Intermediate",
-            "image":""
-        },
-        {
-            "type":"Javascript",
-            "description":"Beginner",
-            "image":""
+            "type":"Bootstrap ",
+            "description":"Intermediate. I learnt how to use Bootstrap through LCA to enhance my projects wiht many different features.",
+            "image":"https://cdn-thumbs.imagevenue.com/94/4e/bd/ME17GHKV_t.png"
         },
         {
             "type":"Git",
-            "description":"Intermediate",
-            "image":""
+            "description":"Intermediate. I learnt how to use GitHub through LCA .",
+            "image":"https://cdn-thumbs.imagevenue.com/f0/56/02/ME17GIKY_t.jpg"
+        },
+        {
+            "type":"Javascript",
+            "description":"Beginner. I learnt Javascript through LCA ",
+            "image":"https://cdn-thumbs.imagevenue.com/f6/81/a6/ME17GHLM_t.png"
         },
         {
             "type":"Vue",
-            "description":"Beginner",
-            "image":""
+            "description":"Beginner. I learnt Vue through LCA.",
+            "image":"https://cdn-thumbs.imagevenue.com/72/62/7b/ME17GHLJ_t.png"
         }
     ],
     "Education":[

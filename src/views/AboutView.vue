@@ -1,5 +1,6 @@
 <template>
    <div class="container clearfix pt-5">
+    <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
         <h1 class="fw-bold text-center ">About me</h1>
         <div id="animation">
           <img
@@ -22,12 +23,36 @@
           strive to give my full potential towards it and ensure to complete
           whats needed from me.
         </p>
+
+        <p class="fs-5">I’m a self motivated person who always takes 100% responsibility</p>
+      
       
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-      
-      </div>
-      
+      <div class="container">
+      <div class="row ">
+  <div class="col-sm-6 mb-3 mb-sm-0 ">
+    <h1>Hobbies</h1>
+    <ul class="list-group list-group-flush">
+  <li class="list-group-item">An item</li>
+  <li class="list-group-item">A second item</li>
+  <li class="list-group-item">A third item</li>
+  <li class="list-group-item">A fourth item</li>
+  <li class="list-group-item">And a fifth one</li>
+</ul>
+  </div>
+  <div class="col-sm-6">
+    <h1>Passion</h1>
+    <ul class="list-group list-group-flush">
+  <li class="list-group-item">An item</li>
+  <li class="list-group-item">A second item</li>
+  <li class="list-group-item">A third item</li>
+  <li class="list-group-item">A fourth item</li>
+  <li class="list-group-item">And a fifth one</li>
+</ul>
+</div>
+      </div>  
+      </div> 
+      </div>   
 </template>
 
 <script>

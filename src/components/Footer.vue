@@ -1,6 +1,6 @@
 <template>
       <div class="footer  ">
-      <footer class="container-fluid text-center">
+      <!-- <footer class="container-fluid text-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -14,15 +14,27 @@
           />
         </svg>
         Caela Ward Portfolio 2024. 
-      </footer>
+      </footer> -->
+      <div class="container-fluid ">
+        <div class="row">
+            <p class="lead">
+                Caela Ward Portfolio &copy; <span>{{ currYear }}</span>
+            </p>
+        </div>
+    </div>
     </div>
 
 </template>
 
 <script>
 export default {
-
-}
+        name: 'FooterComp',
+        data() {
+            return{
+                currYear: new Date().getFullYear()
+            }
+        }
+    }
 </script>
 
 <style scoped>

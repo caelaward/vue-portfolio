@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-   <h1>Home Page</h1>
+   <h1>Caela Morgan Ward</h1>
+   <img src="" alt="">
+   
     
   </div>
 </template>

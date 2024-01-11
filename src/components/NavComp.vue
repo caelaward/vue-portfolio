@@ -26,7 +26,39 @@
 </div>  
 
 </div>
-    <div class="container-fluid bg-dark p-4 ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+   
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+         <li class="nav-item">
+           <router-link to="/home" class="nav-link active " aria-current="page" href="home">Home</router-link>
+         </li>       
+         <li class="nav-item">
+    <router-link to="/about" class="nav-link " >About</router-link>
+  </li>
+        <li class="nav-item">
+    <router-link to="/resume" class="nav-link " href="resume">Resume</router-link>
+  </li>
+        <li class="nav-item">
+    <router-link to="/projects" class="nav-link " href="projects">Projects</router-link>
+  </li>
+   <li class="nav-item">
+    <router-link to="/testimonials" class="nav-link text-white" href="testimonials">Testimonials</router-link>
+  </li>
+   <li class="nav-item">
+    <router-link to="/contact" class="nav-link text-white" href="contact">Contact</router-link>
+  </li>
+      
+      </div>
+    </div>
+  </div>
+</nav>
+    <!-- <div class="container-fluid bg-dark p-4 ">
      <div class="navbar  justify-content-center">
        <ul class="nav ">
   <li class="nav-item">
@@ -50,7 +82,7 @@
  
 </ul> 
     </div> 
-    </div>
+    </div> -->
   
 <!--    
     <div class="navbar navbar-expand-sm  collapse" id="navbarToggleExternalContent" data-bs-theme="dark">

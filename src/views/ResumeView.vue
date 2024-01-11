@@ -79,7 +79,7 @@
             <div class="col-sm-12 mb-3 mb-sm-0 ">
               <div class="card ">
                 <div class="card-body ">
-                  <img src="" class="img-fluid rounded-start float-start " alt="...">
+                  <img :src="skill.image" class="img-fluid rounded-start float-start w-25" alt="...">
                  <h5 class="card-title ">{{skill.type}}</h5>
                   <p class="card-text ">{{skill.description}}</p>
                 </div>

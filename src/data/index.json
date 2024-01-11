@@ -2,13 +2,7 @@
 
 
 {
-    "about": [
-        {
-           "description": "Information about me",
-           "hobbies":"My hobbies",
-           "url":""
-        }
-    ],
+   
     "resume": [
         {
             "experience":"Children's Montesorri Workshop",

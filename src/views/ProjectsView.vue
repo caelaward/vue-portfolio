@@ -16,7 +16,7 @@
   <div class="container mt-5">
 
   <div class="row row-cols-1 row-cols-md-3 g-4">
- <div v-for="project in $store.state.projects" :key="project" class="col">
+ <div v-for="project in $store.state.projects" :key="project" >
     <div class="card">
       <img :src="project.image" class="card-img-top " alt="...">
       <div class="card-body">

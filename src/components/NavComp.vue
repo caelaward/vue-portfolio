@@ -26,26 +26,26 @@
 </div>  
 
 </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-dark p-3">
+  <div class="container-fluid ">
    
     
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation ">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+    <div class="collapse navbar-collapse justify-content-center " id="navbarNavAltMarkup">
+      <div class="navbar-nav  ">
          <li class="nav-item">
-           <router-link to="/home" class="nav-link active " aria-current="page" href="home">Home</router-link>
+           <router-link to="/home" class="nav-link  text-white"  href="home">Home</router-link>
          </li>       
          <li class="nav-item">
-    <router-link to="/about" class="nav-link " >About</router-link>
+    <router-link to="/about" class="nav-link text-white" >About</router-link>
   </li>
         <li class="nav-item">
-    <router-link to="/resume" class="nav-link " href="resume">Resume</router-link>
+    <router-link to="/resume" class="nav-link text-white" href="resume">Resume</router-link>
   </li>
         <li class="nav-item">
-    <router-link to="/projects" class="nav-link " href="projects">Projects</router-link>
+    <router-link to="/projects" class="nav-link text-white" href="projects">Projects</router-link>
   </li>
    <li class="nav-item">
     <router-link to="/testimonials" class="nav-link text-white" href="testimonials">Testimonials</router-link>

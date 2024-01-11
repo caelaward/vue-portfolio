@@ -1,9 +1,10 @@
 <template>
+  <div clas="container">
   <div class="home">
-   <h1>Caela Morgan Ward</h1>
+   <h2>Caela Morgan Ward </h2>
    <img src="" alt="">
-   
-    
+   <p>Aspiring web developer  </p>
+  </div>
   </div>
 </template>
 

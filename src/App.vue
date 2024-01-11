@@ -29,12 +29,14 @@ export default {
 
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Lora', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #d6c680;
 }
 
 nav {

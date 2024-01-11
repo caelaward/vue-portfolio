@@ -1,5 +1,5 @@
 <template>
-  <h1>Contact Page</h1>
+  <h1>Contact me</h1>
 
     <div class="container">
      <ul class="list-group list-group-flush">

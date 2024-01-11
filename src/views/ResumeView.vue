@@ -73,12 +73,14 @@
          fetchDataEducation(){
           this.$store.dispatch('fetchDataEducation')
         }
+        
 
     },
     mounted(){
         this.fetchDataResume
         this.fetchDataSkills
         this.fetchDataEducation
+     
     }
 }
 

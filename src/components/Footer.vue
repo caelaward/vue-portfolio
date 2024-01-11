@@ -17,9 +17,11 @@
       </footer> -->
       <div class="container-fluid ">
         <div class="row">
-            <p class="lead">
+        
+            <p class="lead fs-6">
                 Caela Ward Portfolio &copy; <span>{{ currYear }}</span>
             </p>
+          
         </div>
     </div>
     </div>

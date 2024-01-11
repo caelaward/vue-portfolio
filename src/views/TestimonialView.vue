@@ -1,6 +1,6 @@
 <template>
-  <h1 class="mt-5">Testimonials Page</h1>
   <div class="container mt-5">
+  <h1 class="mt-5">Testimonials</h1>
 
   <div class="row row-cols-1 row-cols-md-3 g-4">
  <div v-for="testimonial in $store.state.testimonials" :key="testimonial" class="col">

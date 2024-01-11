@@ -7,7 +7,8 @@ export default createStore({
     resume:[],
     skills:[],
     projects:[],
-    testimonials:[]
+    testimonials:[],
+    
   },
   getters: {
   },
@@ -28,7 +29,7 @@ export default createStore({
     setEducation(state,data){
       state.education=data
     }
-
+    
     
   },
   actions: {
@@ -68,6 +69,7 @@ export default createStore({
        context.commit("setEducation", e.data )
       })
      }
+     
   },
   modules: {
   }

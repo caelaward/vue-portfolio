@@ -7,18 +7,22 @@
     <router-link to="/contact">Contact</router-link>
   </nav> -->
   <NavComp/>
+  
   <router-view/>
-  <Footer/>
+  <FooterComp/>
+
 
 </template>
 <script>
 import NavComp from './components/NavComp.vue'
-import Footer from './components/Footer.vue'
+import FooterComp from './components/Footer.vue'
+
 
 export default {
    components: {
     NavComp,
-    Footer
+    FooterComp
+   
     }
 }
 </script>

@@ -7,7 +7,7 @@
     <div class="card">
      <div class="inner">
         <div class="cover">
-           <p> <img src="" class="card-img-top" alt="..."></p>
+           <p> <img :src="testimonial.image" class="card-img-top w-25 rounded-circle" alt="..."></p>
             <p class="title">{{testimonial.name}}</p> 
         </div>
         <div class="back">

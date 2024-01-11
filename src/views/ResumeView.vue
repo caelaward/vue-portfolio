@@ -1,3 +1,7 @@
+
+
+
+
  <template>
     <!-- <div class="row">
   <div class="col-sm-6 mb-3 mb-sm-0">
@@ -48,21 +52,9 @@
      
   
    <h1>Skills</h1>
-   <div class="container " id="skill-container">
+   <!-- <div class="container " id="skill-container">
    <div v-for="skill in $store.state.skills" :key="skill" >
-     
-   <!-- <div class="row g-0">
-    <div class="col-md-4">
-      <img src="" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">{{skill.type}}</h5>
-        <p class="card-text">{{skill.description}}</p>
-      </div>
-    </div>
-  </div>
-</div> -->
+
 <div class="card mb-3 " style="max-width: 540px;">
   <div class="row g-0">
     <div class="col-md-4">
@@ -78,7 +70,25 @@
   </div>
 </div>
    </div>
-</div>
+</div> -->
+
+ <div class="container " id="skill-container">
+     <div class="row row-cols-1 row-cols-md-3 g-4 ">
+ <div v-for="skill in $store.state.skills" :key="skill" >
+            
+            <div class="col-sm-12 mb-3 mb-sm-0 ">
+              <div class="card ">
+                <div class="card-body ">
+                  <img src="" class="img-fluid rounded-start float-start " alt="...">
+                 <h5 class="card-title ">{{skill.type}}</h5>
+                  <p class="card-text ">{{skill.description}}</p>
+                </div>
+              </div>
+            </div>
+     </div>
+ </div>
+ </div>
+
  </template>
  
 <script>

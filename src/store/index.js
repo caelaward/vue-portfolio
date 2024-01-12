@@ -63,11 +63,16 @@ export default createStore({
       })
      },
      fetchDataEducation(context){
-      axios.get( " https://caelaward.github.io/jsonData/")
-      .then((e)=>{
-       console.log(e.data.Education);
-       context.commit("setEducation", e.data.Education )
-      })
+     try{
+      
+       axios.get( " https://caelaward.github.io/jsonData/")
+       .then((e)=>{
+        console.log(e.data.Education);
+        context.commit("setEducation", e.data.Education )
+       })
+     } catch(error){
+        console.error("error",error);
+     }
      }
      
   },

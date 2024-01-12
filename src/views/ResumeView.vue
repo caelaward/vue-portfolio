@@ -27,8 +27,8 @@
     {{education.name}}
   </button>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item p-5" href="#">{{education.name}}</a></li>
-    <li><a class="dropdown-item" href="#">{{education.description}}</a></li>
+    <li><a class="dropdown-item p-5" >{{education.name}}</a></li>
+    <li><a class="dropdown-item" >{{education.description}}</a></li>
    
   </ul>
 </div>

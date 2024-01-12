@@ -5,13 +5,13 @@
    <h2 class="text">Caela Morgan Ward </h2>
    </div>
    <img src="https://i.postimg.cc/RqxS6HFc/pprofile1.jpg" class="w-25 rounded " id="coverImg" alt="" ><br><br>
-  <h3> <p>Aspiring web developer  </p></h3>
+  <h3 class="description"> <p>Aspiring web developer  </p></h3>
   </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+
 
 
 export default {
@@ -39,7 +39,7 @@ export default {
     white-space: nowrap;
     overflow: hidden;
     animation: typing 3s ,
-    cursor .4s step-end infinite alternate;
+    cursor .4s infinite alternate;
 }
 @keyframes cursor {
     50% {
@@ -51,5 +51,28 @@ export default {
         width: 0;
     }
     
+}
+@media (max-width:768px){
+    .text{
+        font-size: 2rem;
+        margin-top: 16%;
+    }
+    #coverImg{
+        margin-top:50px ;
+        margin-bottom: 50px;
+    }
+    .description{
+        margin-bottom: 50px;
+    }  
+}
+@media (max-width:470px){
+    .text{
+        font-size: 1rem;
+        margin-top: 16%;
+    }
+    
+    .description{
+        margin-bottom: 50px;
+    }
 }
 </style>

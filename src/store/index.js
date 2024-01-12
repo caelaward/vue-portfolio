@@ -35,32 +35,48 @@ export default createStore({
   actions: {
   
     fetchDataResume(context){
-      axios.get( " https://caelaward.github.io/jsonData/")
-      .then((r)=>{
-       console.log(r.data.resume);
-       context.commit("setResume", r.data.resume )
-      })
+      try{
+        axios.get( " https://caelaward.github.io/jsonData/")
+        .then((r)=>{
+         console.log(r.data.resume);
+         context.commit("setResume", r.data.resume )
+        })
+      }catch(error){
+        console.error("error",error);
+     }
      },
      fetchDataProjects(context){
-      axios.get( "https://caelaward.github.io/jsonData/")
-      .then((p)=>{
-       console.log(p.data.projects);
-       context.commit("setProjects", p.data.projects )
-      })
+      try{
+        axios.get( "https://caelaward.github.io/jsonData/")
+        .then((p)=>{
+         console.log(p.data.projects);
+         context.commit("setProjects", p.data.projects )
+        })
+      }catch(error){
+        console.error("error",error);
+     }
      },
      fetchDataTestimonials(context){
-      axios.get( "https://caelaward.github.io/jsonData/")
-      .then((t)=>{
-       console.log(t.data.testimonials);
-       context.commit("setTestimonials", t.data.testimonials )
-      })
+      try{
+        axios.get( "https://caelaward.github.io/jsonData/")
+        .then((t)=>{
+         console.log(t.data.testimonials);
+         context.commit("setTestimonials", t.data.testimonials )
+        })
+      }catch(error){
+        console.error("error",error);
+     }
      },
      fetchDataSkills(context){
-      axios.get( "https://caelaward.github.io/jsonData/")
-      .then((s)=>{
-       console.log(s.data.skills);
-       context.commit("setSkills", s.data.skills )
-      })
+      try{
+        axios.get( "https://caelaward.github.io/jsonData/")
+        .then((s)=>{
+         console.log(s.data.skills);
+         context.commit("setSkills", s.data.skills )
+        })
+      } catch(error){
+        console.error("error",error);
+     }
      },
      fetchDataEducation(context){
      try{

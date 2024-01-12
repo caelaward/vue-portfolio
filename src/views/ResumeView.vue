@@ -1,11 +1,9 @@
 
 
-
-
  <template>
-    
+      <div v-if="$store.state.resume.length>0">
      <div class="container" id="resume-container">
-     <h1>Resume</h1>
+     <h1 class="mt-5 mb-5">Resume</h1>
      
       <div v-for="resume in $store.state.resume" :key="resume" >
    
@@ -18,7 +16,7 @@
      </div>
 
      
-     <h1>Education</h1> 
+     <h1 class="mt-5 mb-5">Education</h1> 
     <div v-for="education in $store.state.education" :key="education" >
     
   <div class="container" id="education-container">
@@ -35,7 +33,7 @@
   </div>
 </div>
   
-   <h1>Skills</h1>
+   <h1 class="mt-5 mb-5">Skills</h1>
 
  <div class="container " id="skill-container">
      <div class="row row-cols-1 row-cols-md-3 g-4 ">
@@ -53,15 +51,18 @@
      </div>
  </div>
  </div>
-    
+
+      </div>
+  <div v-else><SpinnerComp/></div>
  </template>
 
  
 <script>
- 
+  
+  import SpinnerComp from '../components/SpinnerComp.vue' 
   export default {
     components:{
-    
+    SpinnerComp
     },
     computed:{
         fetchDataResume(){

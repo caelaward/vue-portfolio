@@ -35,38 +35,38 @@ export default createStore({
   actions: {
   
     fetchDataResume(context){
-      axios.get( " http://localhost:3000/resume")
+      axios.get( " https://caelaward.github.io/jsonData/")
       .then((r)=>{
-       console.log(r.data);
-       context.commit("setResume", r.data )
+       console.log(r.data.resume);
+       context.commit("setResume", r.data.resume )
       })
      },
      fetchDataProjects(context){
-      axios.get( "http://localhost:3000/projects")
+      axios.get( "https://caelaward.github.io/jsonData/")
       .then((p)=>{
-       console.log(p.data);
-       context.commit("setProjects", p.data )
+       console.log(p.data.projects);
+       context.commit("setProjects", p.data.projects )
       })
      },
      fetchDataTestimonials(context){
-      axios.get( "http://localhost:3000/testimonials")
+      axios.get( "https://caelaward.github.io/jsonData/")
       .then((t)=>{
-       console.log(t.data);
-       context.commit("setTestimonials", t.data )
+       console.log(t.data.testimonials);
+       context.commit("setTestimonials", t.data.testimonials )
       })
      },
      fetchDataSkills(context){
-      axios.get( "http://localhost:3000/skills")
+      axios.get( "https://caelaward.github.io/jsonData/")
       .then((s)=>{
-       console.log(s.data);
-       context.commit("setSkills", s.data )
+       console.log(s.data.skills);
+       context.commit("setSkills", s.data.skills )
       })
      },
      fetchDataEducation(context){
-      axios.get( " http://localhost:3000/Education")
+      axios.get( " https://caelaward.github.io/jsonData/")
       .then((e)=>{
-       console.log(e.data);
-       context.commit("setEducation", e.data )
+       console.log(e.data.Education);
+       context.commit("setEducation", e.data.Education )
       })
      }
      

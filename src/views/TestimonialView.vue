@@ -85,7 +85,7 @@ export default {
 
 <style scoped>
 .card {
-  background-color: transparent;
+  background-color: white;
   height: 254px;
   perspective: 1000px;
   font-family: sans-serif;

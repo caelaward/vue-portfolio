@@ -26,7 +26,7 @@
     <div class="collapse navbar-collapse justify-content-center " id="navbarNavAltMarkup">
       <div class="navbar-nav  ">
          <li class="nav-item">
-           <router-link to="/home" class="nav-link  text-white"  href="home">Home</router-link>
+           <router-link to="/" class="nav-link  text-white"  href="home">Home</router-link>
          </li>       
          <li class="nav-item">
     <router-link to="/about" class="nav-link text-white" >About</router-link>

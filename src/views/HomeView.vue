@@ -2,7 +2,7 @@
   <div clas="container">
   <div class="home">
     <div class="name">
-   <h2 class="text">Caela Morgan Ward </h2>
+   <h2 class="text">Caela Morgan<br>Ward</h2>
    </div>
    <img src="https://i.postimg.cc/RqxS6HFc/pprofile1.jpg" class="w-25 rounded " id="coverImg" alt="" ><br><br>
   <h3 class="description"> <p>Aspiring web developer  </p></h3>
@@ -30,6 +30,7 @@ export default {
 }
 
 .text{
+    padding: 1rem;
     font-size: 5rem;
     text-shadow: 5px 8px 10px;
     letter-spacing: 10px;
@@ -65,10 +66,12 @@ export default {
         margin-bottom: 50px;
     }  
 }
-@media (max-width:470px){
+@media (max-width:500px){
     .text{
-        font-size: 1rem;
+        font-size: 1.8rem;
         margin-top: 16%;
+        animation: none;
+        
     }
     
     .description{

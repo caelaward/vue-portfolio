@@ -47,6 +47,7 @@ export default {
   height: 254px;
   perspective: 1000px;
   font-family: sans-serif;
+  border-radius:1rem
 }
 
 .title {

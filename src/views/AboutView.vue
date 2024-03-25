@@ -80,7 +80,7 @@
 
       <div class="container">
       <div class="row ">
-  <div class="col-sm-6 mb-3 mb-sm-0 ">
+  <div class="col-sm-6 mb-3  ">
     <h1>Hobbies</h1>
     <ul class="list-group list-group-flush">
   <li class="list-group-item">Gym</li>
@@ -95,7 +95,7 @@
     <ul class="list-group list-group-flush">
   <li class="list-group-item">Learning new things</li>
   <li class="list-group-item">Meeting new people and connecting with others</li>
-  <li class="list-group-item">I love animals, helpinng the and looking after them</li>
+  <li class="list-group-item">I love animals, helping the and looking after them</li>
   <li class="list-group-item">Working hard and giving my full potential for everything</li>
   <li class="list-group-item">I enjoy any challege, whether it be for work or just life in general</li>
 </ul>

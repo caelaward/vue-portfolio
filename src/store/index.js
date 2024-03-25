@@ -35,39 +35,60 @@ export default createStore({
   actions: {
   
     fetchDataResume(context){
-      axios.get( " http://localhost:3000/resume")
-      .then((r)=>{
-       console.log(r.data);
-       context.commit("setResume", r.data )
-      })
+      try{
+        axios.get( " https://caelaward.github.io/jsonData/")
+        .then((r)=>{
+         console.log(r.data.resume);
+         context.commit("setResume", r.data.resume )
+        })
+      }catch(error){
+        console.error("error",error);
+     }
      },
      fetchDataProjects(context){
-      axios.get( "http://localhost:3000/projects")
-      .then((p)=>{
-       console.log(p.data);
-       context.commit("setProjects", p.data )
-      })
+      try{
+        axios.get( "https://caelaward.github.io/jsonData/")
+        .then((p)=>{
+         console.log(p.data.projects);
+         context.commit("setProjects", p.data.projects )
+        })
+      }catch(error){
+        console.error("error",error);
+     }
      },
      fetchDataTestimonials(context){
-      axios.get( "http://localhost:3000/testimonials")
-      .then((t)=>{
-       console.log(t.data);
-       context.commit("setTestimonials", t.data )
-      })
+      try{
+        axios.get( "https://caelaward.github.io/jsonData/")
+        .then((t)=>{
+         console.log(t.data.testimonials);
+         context.commit("setTestimonials", t.data.testimonials )
+        })
+      }catch(error){
+        console.error("error",error);
+     }
      },
      fetchDataSkills(context){
-      axios.get( "http://localhost:3000/skills")
-      .then((s)=>{
-       console.log(s.data);
-       context.commit("setSkills", s.data )
-      })
+      try{
+        axios.get( "https://caelaward.github.io/jsonData/")
+        .then((s)=>{
+         console.log(s.data.skills);
+         context.commit("setSkills", s.data.skills )
+        })
+      } catch(error){
+        console.error("error",error);
+     }
      },
      fetchDataEducation(context){
-      axios.get( " http://localhost:3000/Education")
-      .then((e)=>{
-       console.log(e.data);
-       context.commit("setEducation", e.data )
-      })
+     try{
+      
+       axios.get( " https://caelaward.github.io/jsonData/")
+       .then((e)=>{
+        console.log(e.data.Education);
+        context.commit("setEducation", e.data.Education )
+       })
+     } catch(error){
+        console.error("error",error);
+     }
      }
      
   },

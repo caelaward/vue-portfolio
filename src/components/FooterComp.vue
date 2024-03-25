@@ -19,7 +19,7 @@
         <div class="row">
         
             <p class="lead fs-6">
-                Caela Ward Portfolio &copy; <span>{{ currYear }}</span>
+                Caela Ward Portfolio &copy; <span>{{ currentYear }}</span>
             </p>
           
         </div>
@@ -33,7 +33,7 @@ export default {
         name: 'FooterComp',
         data() {
             return{
-                currYear: new Date().getFullYear()
+                currentYear: new Date().getFullYear()
             }
         }
     }

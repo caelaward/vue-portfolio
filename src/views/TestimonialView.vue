@@ -1,6 +1,7 @@
 <template>
-  <div class="container mt-5">
-  <h1 class="mt-5">Testimonials</h1>
+  <div v-if="$store.state.testimonials.length>0">
+  <div class="container mt-5 ">
+  <h1 class="mt-5 mb-5">Testimonials</h1>
 
   <div class="row row-cols-1 row-cols-md-3 g-4">
  <div v-for="testimonial in $store.state.testimonials" :key="testimonial" class="col">
@@ -17,61 +18,18 @@
     </div>
   </div>
 </div>
+  </div>   
   </div>
-
-  
-
-
-  <!-- <div class="container ">
-    <div v-for="(testimonial,index) in $store.state.testimonials" :key="testimonial" :class="{ 'carousel-item': true, active: index === 0 }">
-      <div
-          id="carouselExampleAutoplaying"
-          class="carousel slide pt-5"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner justify-content-evenly">
-            <div class="carousel-item active">
-              <img
-                src=""
-                class="d-block w-25 rounded-circle "
-                id="tash-img"/>
-                <h4 class="name">{{testimonial.name}}</h4>
-              
-              <div class="description justify-content-evenly">
-                <p >
-                  {{testimonial.description}}
-                </p>
-              </div>
-            </div> 
-            </div>
-            <button
-            class="carousel-control-prev carousel-dark"
-            type="button"
-            data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next carousel-dark "
-            type="button"
-            data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-            </div>
-            </div>
-            
-  </div> -->
-  
+  <div v-else><SpinnerComp/></div>
   
 </template>
 
 <script>
+import SpinnerComp from '../components/SpinnerComp.vue' 
 export default {
+  components:{
+    SpinnerComp
+    },
    computed:{
         fetchDataTestimonials(){
             this.$store.dispatch('fetchDataTestimonials')
@@ -85,10 +43,11 @@ export default {
 
 <style scoped>
 .card {
-  background-color: transparent;
+  background-color: white;
   height: 254px;
   perspective: 1000px;
   font-family: sans-serif;
+  border-radius:1rem
 }
 
 .title {

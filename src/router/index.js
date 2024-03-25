@@ -6,7 +6,7 @@ import ResumeView from '../views/ResumeView.vue'
 import TestimonialView from '../views/TestimonialView.vue'
 const routes = [
   {
-    path: '/home',
+    path: '/',
     name: 'home',
     component: HomeView
   },

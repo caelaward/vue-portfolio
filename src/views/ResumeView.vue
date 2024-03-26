@@ -3,11 +3,11 @@
  <template>
       <div v-if="$store.state.resume.length>0">
      <div class="container" id="resume-container">
-     <h1 class="mt-5 mb-5">Resume</h1>
+     <h1 class="mt-3 mb-5">Resume</h1>
      
       <div v-for="resume in $store.state.resume" :key="resume" >
    
-     <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded fw-bold">
+     <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded fw-bold" id="card_bod">
       {{resume.experience}}
      <p>{{resume.description}}</p>
      </div>
@@ -40,7 +40,7 @@
  <div v-for="skill in $store.state.skills" :key="skill" >
             
             <div class="col-sm-12 mb-3 mb-sm-0 ">
-              <div class="card ">
+              <div class="card " id="card_bod" >
                 <div class="card-body ">
                   <img :src="skill.image" class="img-fluid rounded-start float-start w-25" alt="...">
                  <h5 class="card-title ">{{skill.type}}</h5>
@@ -53,7 +53,10 @@
  </div>
 
       </div>
-  <div v-else><SpinnerComp/></div>
+
+  <div v-else>
+    <SpinnerComp/>
+    </div>
  </template>
 
  
@@ -88,7 +91,43 @@
 </script>
 
  
- <style>
-  
+ <style scoped >
+ /* #card_bod:hover:before {
+  border-color: #262626 ;
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .3s;
+}
+
+#card:hover:after {
+  border-color: #262626;
+  height: 100%;
+  transform: translateX(0) ;
+  transition: .3s transform linear, .3s height linear .5s;
+} */
+
+
+#card_bod::before {
+  margin-left: auto;
+}
+
+#card_bod::after, #card_bod::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background:black;
+  display: block;
+  transition: 0.5s;
+}
+
+#card_bod:hover::after, #card_bod:hover::before {
+  width: 100%;
+}
+
+
+
+
+
  
  </style>
+

@@ -71,7 +71,7 @@ export default {
 }
 
 .cover, .back {
-  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 9px 15px 0 rgba(0,0,0,0.2);
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -80,7 +80,7 @@ export default {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border: 1px solid coral;
+  border: 1px solid rgb(49, 47, 46);
   border-radius: 1rem;
 }
 

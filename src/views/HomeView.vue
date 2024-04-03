@@ -1,5 +1,5 @@
 <template>
-    
+   
   <!-- <div clas="container" >
   <div class="home">
     <div class="name">
@@ -23,11 +23,17 @@
         </div>
 
     </div> -->
-    <div class="container">
-        <img src="https://i.postimg.cc/RqxS6HFc/pprofile1.jpg" class="container-fluid " id="coverImg"> 
+    <div class="bodyh">
+       
+        <div class="row">
+
+    <div class="container col">
+        <img src="https://i.ibb.co/wpvjjCM/IMG-20240403-WA0019.jpg" class="container-fluid " id="coverImg"> 
     </div>
-    
-    
+    <span class="col" id="name"><h1>Caela Morgan Ward</h1></span>
+    <h3>Aspiring web developer</h3>
+    </div>
+    </div>
   
 </template>
 
@@ -39,28 +45,43 @@ export default {
   name: 'HomeView',
   components: {
     
+    
   }
 }
 </script>
 <style scoped>
-
-#coverImg{
-    border-radius: 50%;
+.bodyh {
+    background-image: url(https://i.ibb.co/2tBBh6d/Brown-Grey-Creative-Modern-Online-Portfolio-2.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
 }
 
 
-.container{
-    display: inline-block;
-    background: rgb(255, 253, 253);
+#coverImg {
+
+   
+    background: burlywood;
     border-radius:50%;
-    width: 30%;
+    width: 50%;
     padding-top:5px;
     padding-bottom: 5px;
-    margin-top:1%
-   
+    margin-top:4%
+
+}
+
+span{
+    margin:0;
+    padding:0
+}
+
+#name{
+    margin-top:9%
 }
 
 
+/* 
 .text{
     padding: 1rem;
     font-size: 5rem;
@@ -104,10 +125,10 @@ export default {
         margin-top: 16%;
         animation: none;
         
-    }
+    } */
     
-    .description{
+    /* .description{
         margin-bottom: 50px;
     }
-}
+} */
 </style>

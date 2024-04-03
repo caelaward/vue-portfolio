@@ -1,5 +1,6 @@
 <template>
-  <div clas="container">
+    
+  <div clas="container" >
   <div class="home">
     <div class="name">
    <h2 class="text">Caela Morgan<br>Ward</h2>
@@ -22,6 +23,8 @@ export default {
 }
 </script>
 <style scoped>
+
+
 .container{
     display: inline-block;
 }

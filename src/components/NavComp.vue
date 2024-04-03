@@ -7,9 +7,9 @@
 <div class="col d-flex justify-content-center ">
 <div class="social-media">
 <p class="mb-0 d-flex">
-<a href="#" class="d-flex align-items-center justify-content-center me-2"><span class="fa fa-facebook"></span></a>
-<a href="https://www.linkedin.com/in/calla-ward-1a5146276/" target="blank" class="d-flex align-items-center justify-content-center me-2"><span class="fa fa-twitter"><img src="https://cdn-thumbs.imagevenue.com/10/e0/12/ME17GO47_t.png" alt="" id="logo"></span></a>
-<a href="https://github.com/caelaward" target="blank" class="d-flex align-items-center justify-content-center "><span class="fa fa-instagram"><img src="https://cdn-thumbs.imagevenue.com/8c/a7/f0/ME17GO3H_t.png" alt="" id="logo"></span></a>
+
+<a href="https://www.linkedin.com/in/calla-ward-1a5146276/" target="blank" class="d-flex align-items-center justify-content-center me-2"><span ><img src="https://cdn-thumbs.imagevenue.com/10/e0/12/ME17GO47_t.png" alt="" id="logo"></span></a>
+<a href="https://github.com/caelaward" target="blank" class="d-flex align-items-center justify-content-center "><span ><img src="https://cdn-thumbs.imagevenue.com/8c/a7/f0/ME17GO3H_t.png" alt="" id="logo"></span></a>
 </p>
 </div>
 </div>
@@ -38,7 +38,7 @@
     <router-link to="/projects" class="nav-link text-white" href="projects">Projects</router-link>
   </li>
    <li class="nav-item">
-    <router-link to="/testimonials" class="nav-link text-white" href="testimonials">Testimonials</router-link>
+    <router-link to="/testimonials" class="nav-link text-white" href="testimonials">Reviews</router-link>
   </li>
    <li class="nav-item">
     <router-link to="/contact" class="nav-link text-white" href="contact">Contact</router-link>

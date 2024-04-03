@@ -1,6 +1,6 @@
 <template>
     
-  <div clas="container" >
+  <!-- <div clas="container" >
   <div class="home">
     <div class="name">
    <h2 class="text">Caela Morgan<br>Ward</h2>
@@ -8,7 +8,27 @@
    <img src="https://i.postimg.cc/RqxS6HFc/pprofile1.jpg" class="w-25 rounded " id="coverImg" alt="" ><br><br>
   <h3 class="description"> <p>Aspiring web developer  </p></h3>
   </div>
-  </div>
+  </div> -->
+
+  
+    <!-- <div class="row">
+        <div class="col-lg-6 mt-5">
+            <h1>Caela Morgan Ward</h1>
+        </div>
+
+
+        <div class="col-lg-6">
+            <img src="https://i.postimg.cc/RqxS6HFc/pprofile1.jpg" class="container-fluid " id="coverImg"> 
+
+        </div>
+
+    </div> -->
+    <div class="container">
+        <img src="https://i.postimg.cc/RqxS6HFc/pprofile1.jpg" class="container-fluid " id="coverImg"> 
+    </div>
+    
+    
+  
 </template>
 
 <script>
@@ -24,13 +44,22 @@ export default {
 </script>
 <style scoped>
 
+#coverImg{
+    border-radius: 50%;
+}
+
 
 .container{
     display: inline-block;
+    background: rgb(255, 253, 253);
+    border-radius:50%;
+    width: 30%;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-top:1%
+   
 }
-#coverImg{
-   box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
-}
+
 
 .text{
     padding: 1rem;

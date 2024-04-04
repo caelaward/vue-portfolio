@@ -29,7 +29,7 @@
           <div class="navbar-nav">
             <router-link :to="{ name: 'home' }" class="nav-link " :class="{ 'active': currentRoute === 'home' }" exact>Home</router-link>
             <router-link :to="{ name: 'about' }" class="nav-link " :class="{ 'active': currentRoute === 'about' }">About</router-link>
-            <router-link :to="{ name: 'resume' }" class="nav-link " :class="{ 'active': currentRoute === 'resume' }">Resume</router-link>
+            <router-link :to="{ name: 'resume' }" class="nav-link " :class="{ 'active': currentRoute === 'resume' }">Experience</router-link>
             <router-link :to="{ name: 'projects' }" class="nav-link " :class="{ 'active': currentRoute === 'projects' }">Projects</router-link>
             <router-link :to="{ name: 'testimonials' }" class="nav-link " :class="{ 'active': currentRoute === 'testimonials' }">Reviews</router-link>
             <router-link :to="{ name: 'contact' }" class="nav-link " :class="{ 'active': currentRoute === 'contact' }">Contact</router-link>
@@ -78,5 +78,7 @@ export default {
   
 }
 
-
+#navDiv{
+  background-color:burlywood
+}
 </style>

@@ -2,12 +2,12 @@
 
  <template>
     <div class="header">
-    <h1 class="mt-2">Reviews</h1>
+    <h1 class="mt-2">Experience and Education</h1>
       </div>
       <div v-if="$store.state.resume.length>0">
      <div class="container" id="resume-container">
      
-     
+      <h2 class="resume-title">Experience</h2>
       <div v-for="resume in $store.state.resume" :key="resume" >
    
      <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded fw-bold" id="card_bod">

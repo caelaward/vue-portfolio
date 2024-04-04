@@ -74,12 +74,12 @@
 
   <!-- </div> -->
 
-  <section id="contact" class="contact mt-2 mb-2">
-   <div class="container" data-aos="fade-up">
+  <section id="contact" class="contact ">
 
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
+        <div class="header">
+    <h1 class="mt-2 mb-5">Contact me</h1>
+      </div>
+   <div class="container" data-aos="fade-up">
 
         <div class="row mt-1">
 
@@ -200,10 +200,22 @@ export default {
      background-color: white;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     } */
+.header {
+	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png');
+	/*background-attachment: fixed;*/
+	color: #FFF;
+	max-height: 500px;
+	height: 100%;
 
+}
     /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+#contactName{
+    color:maroon
+}
+
 .contact .info {
   width: 100%;
   /* background: #fff; */
@@ -211,7 +223,7 @@ export default {
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: maroon;
   float: left;
   width: 44px;
   height: 44px;
@@ -246,7 +258,7 @@ export default {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
+  background: maroon;
   color: #fff;
 }
 
@@ -317,7 +329,7 @@ export default {
 }
 
 .contact .form_info button[type=submit] {
-  background: #0563bb;
+  background: maroon;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -326,7 +338,7 @@ export default {
 }
 
 .contact .form_info button[type=submit]:hover {
-  background: #0678e3;
+  background:maroon;
 }
 
 @keyframes animate-loading {

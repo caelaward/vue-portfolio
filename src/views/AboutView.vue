@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h1 class="mt-2">Reviews</h1>
+    <h1 class="mt-2">About me</h1>
       </div>
    <div class="container clearfix pt-3" >
      

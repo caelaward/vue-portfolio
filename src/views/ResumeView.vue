@@ -1,9 +1,12 @@
 
 
  <template>
+    <div class="header">
+    <h1 class="mt-2">Reviews</h1>
+      </div>
       <div v-if="$store.state.resume.length>0">
      <div class="container" id="resume-container">
-     <h1 class="mt-3 mb-5">Resume</h1>
+     
      
       <div v-for="resume in $store.state.resume" :key="resume" >
    
@@ -85,7 +88,14 @@
  
  <style scoped >
  
+ .header {
+	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png');
+	/*background-attachment: fixed;*/
+	color: #FFF;
+	max-height: 500px;
+	height: 100%;
 
+}
 
 #card_bod::before {
   margin-left: auto;
@@ -95,7 +105,7 @@
   content: '';
   width: 0%;
   height: 2px;
-  background:black;
+  background:maroon;
   display: block;
   transition: 0.5s;
 }

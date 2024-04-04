@@ -1,6 +1,9 @@
 <template>
+  <div class="header">
+    <h1 class="mt-2">Reviews</h1>
+      </div>
    <div class="container clearfix pt-3" >
-       <h1 class="fw-bold  ">About me</h1>
+     
     <div class="shadow p-3 mb-5 bg-body-tertiary rounded" >
     <!-- 
         <h1 class="fw-bold text-center ">About me</h1>
@@ -102,6 +105,14 @@ export default {
 </script>
 
 <style scoped>
+.header {
+	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png');
+	/*background-attachment: fixed;*/
+	color: #FFF;
+	max-height: 500px;
+	height: 100%;
+
+}
 #about-info{
   text-align: left;
   /* margin-left: 2%; */

@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky-top">
+  <div class="sticky-top" id="navDiv">
     <!-- <div class="container-fluid bg-warning">
       <div class="row justify-content-between">
         <div class="col d-flex justify-content-center">
@@ -20,19 +20,19 @@
         </div>
       </div>
     </div> -->
-    <nav class="navbar navbar-expand-lg  p-3">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg p-3">
+      <div class="container-fluid ">
         <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <router-link :to="{ name: 'home' }" class="nav-link text-white" :class="{ 'active': currentRoute === 'home' }" exact>Home</router-link>
-            <router-link :to="{ name: 'about' }" class="nav-link text-white" :class="{ 'active': currentRoute === 'about' }">About</router-link>
-            <router-link :to="{ name: 'resume' }" class="nav-link text-white" :class="{ 'active': currentRoute === 'resume' }">Resume</router-link>
-            <router-link :to="{ name: 'projects' }" class="nav-link text-white" :class="{ 'active': currentRoute === 'projects' }">Projects</router-link>
-            <router-link :to="{ name: 'testimonials' }" class="nav-link text-white" :class="{ 'active': currentRoute === 'testimonials' }">Reviews</router-link>
-            <router-link :to="{ name: 'contact' }" class="nav-link text-white" :class="{ 'active': currentRoute === 'contact' }">Contact</router-link>
+            <router-link :to="{ name: 'home' }" class="nav-link " :class="{ 'active': currentRoute === 'home' }" exact>Home</router-link>
+            <router-link :to="{ name: 'about' }" class="nav-link " :class="{ 'active': currentRoute === 'about' }">About</router-link>
+            <router-link :to="{ name: 'resume' }" class="nav-link " :class="{ 'active': currentRoute === 'resume' }">Resume</router-link>
+            <router-link :to="{ name: 'projects' }" class="nav-link " :class="{ 'active': currentRoute === 'projects' }">Projects</router-link>
+            <router-link :to="{ name: 'testimonials' }" class="nav-link " :class="{ 'active': currentRoute === 'testimonials' }">Reviews</router-link>
+            <router-link :to="{ name: 'contact' }" class="nav-link " :class="{ 'active': currentRoute === 'contact' }">Contact</router-link>
           </div>
         </div>
       </div>
@@ -77,4 +77,6 @@ export default {
 
   
 }
+
+
 </style>

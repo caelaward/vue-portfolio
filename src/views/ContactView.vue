@@ -200,11 +200,16 @@ export default {
      background-color: white;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     } */
+#contact{
+  min-height: 77svh;
+}
+.container{
+  margin-top:8%
+}
 .header {
 	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png');
 	/*background-attachment: fixed;*/
 	color: #FFF;
-	max-height: 500px;
 	height: 100%;
 
 }
@@ -219,6 +224,7 @@ export default {
 .contact .info {
   width: 100%;
   /* background: #fff; */
+
 }
 
 .contact .info i {

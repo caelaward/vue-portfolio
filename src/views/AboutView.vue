@@ -36,7 +36,7 @@
         
               <div class="row">
           <div class="col-lg-4">
-            <img src="https://i.postimg.cc/mgtRpNn2/profile2.jpg" class="img-fluid" alt="">
+            <img src="https://i.ibb.co/GTTPVnw/IMG-20240404-WA0003.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" id="about-info" >
             <span><h3 class="greeting ">Hello! I'm Caela Ward </h3></span>

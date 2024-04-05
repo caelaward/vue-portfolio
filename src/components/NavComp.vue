@@ -79,6 +79,6 @@ export default {
 }
 
 #navDiv{
-  background-color:burlywood
+  background-color:bisque
 }
 </style>

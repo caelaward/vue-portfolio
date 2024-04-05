@@ -215,7 +215,7 @@ i:hover {
 
 .second {
 	background: #f2f2f2;
-	color: #a9b0ba;
+	color: black;
 	width: 100%;
 }
 

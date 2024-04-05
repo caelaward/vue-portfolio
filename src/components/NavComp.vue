@@ -79,6 +79,6 @@ export default {
 }
 
 #navDiv{
-  background-color:bisque
+  background-color:beige
 }
 </style>

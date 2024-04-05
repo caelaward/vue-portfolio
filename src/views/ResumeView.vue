@@ -4,25 +4,64 @@
     <div class="header">
     <h1 class="mt-2">Experience and Education</h1>
       </div>
+      <section id="resume" class="resume">
+    <div class="container">
+     
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="resume-item pb-0">
+            <h4>LC Studio</h4>
+            <h5>2024</h5>
+            <p><em>I upskilled myself at LC Studio in 2024. I learnt about networking as well as how to conduct myself in the work place.</em></p>
+           
+          </div>
+         
+          <div class="resume-item">
+            <h4>Ticket Pro</h4>
+            <h5>2022 - 2024</h5>
+            <p><em>Weekends I work with Ticket Pro as a tciekt scanner administrator. I started with Ticket Pro in 2022 and I currentlty still do weekends jobs when needed.</em></p>
+                     </div>
+          <div class="resume-item">
+            <h4>Children's Montesorri Workshop</h4>
+            <h5>2023 </h5>
+            <p><em>I worked as an assistant teacher for four months in 2023. I left the school once I got offered an oportunity to study at Life Choices Academy full-time</em></p>
+           </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="resume-item">
+            <h4>Au-pair</h4>
+            <h5>2022</h5>
+            <p><em>Done au pair work during 2022 for eight months looking after an 4 month old. I stopped the au pair journey once the parents were ready to move on to crèche.</em></p>
+
+          </div>
+          <div class="resume-item">
+            <h4>ARCC</h4>
+            <h5>2022</h5>
+            <p><em>Done data capturing part time during holidays in 2022</em></p>
+            
+          </div>
+          <div class="resume-item">
+            <h4>Voluntary work</h4>
+            <h5>2020-2022</h5>
+            <p><em>Volunteered at different children's Homes during 2020-2022 as well as handed out food for the less fortunate</em></p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
       <div v-if="$store.state.resume.length>0">
      <div class="container" id="resume-container">
      
-      <h2 class="resume-title">Experience</h2>
-      <div v-for="resume in $store.state.resume" :key="resume" >
-   
-     <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded fw-bold" id="card_bod">
-      {{resume.experience}}
-     <p>{{resume.description}}</p>
-     </div>
-     
-    </div>
+      
      </div>
      
      
      <div>
 
-       <h2 class="resume-title">Education</h2>
        <div class="row">
+         <h2 class="resume-title">Education</h2>
          <div v-for="education in $store.state.education" :key="education"  id="eduInfo" class="col">
                 <div class="resume-item">
                   <h4> {{education.name}}</h4>
@@ -80,6 +119,9 @@
    <a class="bg_links logo"></a>
 </div> -->
 <!-- end about -->
+<div class="container">
+
+
    
    <div class="content">
       <!-- card -->
@@ -152,7 +194,7 @@
 
 
 
-
+  </div>
  </template>
 
  
@@ -188,6 +230,11 @@
 
  
  <style scoped >
+
+ #eduInfo{
+  background-color: beige;
+  padding:5%
+ }
  
  .header {
 	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png');
@@ -398,8 +445,7 @@ body {
 .content {
    max-width: 1024px;
    width: 100%;
-   padding: 0 4%;
-   
+   margin-left:5%;
    margin: 0 auto;
    display: flex;
    justify-content: center;
@@ -505,6 +551,11 @@ body {
 	-webkit-text-fill-color: transparent;
    opacity: 1;
    transition: all 0.3s ease;
+}
+
+.content{
+  /* overflow-x: scroll; */
+  flex-wrap: wrap; 
 }
 /* 
 body {

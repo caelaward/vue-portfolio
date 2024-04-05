@@ -37,7 +37,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color:burlywood;
+  background-color:rgba(226, 184, 101, 0.534);
+ 
   overflow: hidden;
 }
 

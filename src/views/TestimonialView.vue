@@ -94,22 +94,24 @@ export default {
 <style scoped>
 
 .header {
-	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png');
+	/* background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png'); */
 	/*background-attachment: fixed;*/
 	color: #FFF;
 	max-height: 500px;
 	height: 100%;
+  background-color: black;
+
 
 }
 
 .card {
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png');
-  /* background-color:white; */
+  /* background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png'); */
+  background-color:beige;
   /* background-color:#eef4f7; */
   height: 254px;
   perspective: 1000px;
   width:100%;
-  color:white;
+  color:black;
   /* font-family: sans-serif; */
   border-radius:0
 

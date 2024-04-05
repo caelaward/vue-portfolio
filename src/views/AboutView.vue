@@ -106,11 +106,12 @@ export default {
 
 <style scoped>
 .header {
-	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png');
+	/* background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png'); */
 	/*background-attachment: fixed;*/
 	color: #FFF;
 	max-height: 500px;
 	height: 100%;
+  background-color: black;
 
 }
 #about-info{

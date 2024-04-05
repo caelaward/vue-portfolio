@@ -2,7 +2,7 @@
 
  <template>
     <div class="header">
-    <h1 class="mt-2">Experience and Education</h1>
+    <h1 class="mt-2 mb-5">Experience and Education</h1>
       </div>
       <section id="resume" class="resume">
     <div class="container">
@@ -237,11 +237,13 @@
  }
  
  .header {
-	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png');
+	/* background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png'); */
 	/*background-attachment: fixed;*/
 	color: #FFF;
 	max-height: 500px;
 	height: 100%;
+  background-color: black;
+
 
 }
 

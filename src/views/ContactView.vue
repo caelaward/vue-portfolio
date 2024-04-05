@@ -207,10 +207,11 @@ export default {
   margin-top:8%
 }
 .header {
-	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png');
+	/* background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png'); */
 	/*background-attachment: fixed;*/
 	color: #FFF;
 	height: 100%;
+  background-color: black;
 
 }
     /*--------------------------------------------------------------

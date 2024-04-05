@@ -19,7 +19,7 @@
           <div class="resume-item">
             <h4>Ticket Pro</h4>
             <h5>2022 - 2024</h5>
-            <p><em>Weekends I work with Ticket Pro as a tciekt scanner administrator. I started with Ticket Pro in 2022 and I currentlty still do weekends jobs when needed.</em></p>
+            <p><em>Weekends I work with Ticket Pro as a ticket scanner administrator. I started with Ticket Pro in 2022 and I currentlty still do weekends jobs when needed.</em></p>
                      </div>
           <div class="resume-item">
             <h4>Children's Montesorri Workshop</h4>

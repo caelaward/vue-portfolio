@@ -44,12 +44,10 @@
        <router-link to="/contact" class="btn btn-dark text-white">Contact</router-link>
 
 		<div class="icon-row">
-			<!-- <i class="fa fa-twitter"></i> -->
-			<!-- <i class="fa fa-codepen"></i> -->
+			
             <a href="https://www.linkedin.com/in/calla-ward-1a5146276/" target="blank" ><i class="fa fa-linkedin"></i></a>
-            <i class="fa-solid fa-envelope"></i>
             <a href="https://github.com/caelaward" target="blank"><i class="fa-brands fa-square-github "></i></a>
-			<!-- <i class="fa fa-youtube"></i> -->
+			
 		</div>
 	</div>
 </div>

@@ -108,8 +108,7 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="form_info">
+            <form action="https://submit-form.com/lXg07wxiG" method="post" role="form" class="form_info"  @submit.prevent="clearForm()" >
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -146,9 +145,9 @@ export default {
   data(){
     return{
       name:"",
-      surename:"",
       email:"",
-      comment:""
+      subject:"",
+      message:""
     }
   },
   computed:{
@@ -157,9 +156,9 @@ export default {
     methods:{
       clearForm(){
         this.name='',
-        this.surename='',
         this.email='',
-        this.comment=''
+        this.subject='',
+        this.message=''
 
       }
 

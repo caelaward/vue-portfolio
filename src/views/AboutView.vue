@@ -4,7 +4,7 @@
       </div>
    <div class="container clearfix pt-3" >
      
-    <div class="shadow p-3 mb-5 bg-body-tertiary rounded" >
+    <div class="shadow p-3 mb-5  rounded" id="aboutDiv">
     <!-- 
         <h1 class="fw-bold text-center ">About me</h1>
         <div id="animation">
@@ -36,7 +36,7 @@
         
               <div class="row">
           <div class="col-lg-4">
-            <img src="https://i.ibb.co/GTTPVnw/IMG-20240404-WA0003.jpg" class="img-fluid" alt="">
+            <img src="https://i.ibb.co/Z6ndZrV/calla2.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" id="about-info" >
             <span><h3 class="greeting ">Hello! I'm Caela Ward </h3></span>
@@ -75,7 +75,7 @@
       <div class="row ">
   <div class="col-sm-6 mb-3  ">
     <h1>Hobbies</h1>
-    <ul class="list-group list-group-flush" id="hobbies">
+    <ul class="list-group list-group-flush" id="about-info">
   <li class="list-group-item">Gym</li>
   <li class="list-group-item">Hockey</li>
   <li class="list-group-item">Voluntary work</li>
@@ -114,8 +114,10 @@ export default {
   background-color: black;
 
 }
+
 #about-info{
   text-align: left;
+  background-color:beige
   /* margin-left: 2%; */
   
 }
@@ -123,6 +125,10 @@ export default {
   margin-bottom:6%;
   margin-top:3%;
   margin-left:30%
+}
+
+#aboutDiv{
+  background-color:beige
 }
 
 </style>

@@ -1,25 +1,5 @@
 <template>
   <div class="sticky-top" id="navDiv">
-    <!-- <div class="container-fluid bg-warning">
-      <div class="row justify-content-between">
-        <div class="col d-flex justify-content-center">
-          <div class="social-media">
-            <p class="mb-0 d-flex">
-              <a href="https://www.linkedin.com/in/calla-ward-1a5146276/" target="blank" class="d-flex align-items-center justify-content-center me-2">
-                <span>
-                  <img src="https://cdn-thumbs.imagevenue.com/10/e0/12/ME17GO47_t.png" alt="" id="logo">
-                </span>
-              </a>
-              <a href="https://github.com/caelaward" target="blank" class="d-flex align-items-center justify-content-center ">
-                <span>
-                  <img src="https://cdn-thumbs.imagevenue.com/8c/a7/f0/ME17GO3H_t.png" alt="" id="logo">
-                </span>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <nav class="navbar navbar-expand-lg p-3">
       <div class="container-fluid ">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,12 +7,12 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <router-link :to="{ name: 'home' }" class="nav-link " :class="{ 'active': currentRoute === 'home' }" exact>Home</router-link>
-            <router-link :to="{ name: 'about' }" class="nav-link " :class="{ 'active': currentRoute === 'about' }">About</router-link>
-            <router-link :to="{ name: 'resume' }" class="nav-link " :class="{ 'active': currentRoute === 'resume' }">Experience</router-link>
-            <router-link :to="{ name: 'projects' }" class="nav-link " :class="{ 'active': currentRoute === 'projects' }">Projects</router-link>
-            <router-link :to="{ name: 'testimonials' }" class="nav-link " :class="{ 'active': currentRoute === 'testimonials' }">Reviews</router-link>
-            <router-link :to="{ name: 'contact' }" class="nav-link " :class="{ 'active': currentRoute === 'contact' }">Contact</router-link>
+            <router-link :to="{ name: 'home' }" class="nav-link " :class="{ 'active': currentRoute === 'home' }" @click="collapseNavbar" exact>Home</router-link>
+            <router-link :to="{ name: 'about' }" class="nav-link " :class="{ 'active': currentRoute === 'about' }" @click="collapseNavbar">About</router-link>
+            <router-link :to="{ name: 'resume' }" class="nav-link " :class="{ 'active': currentRoute === 'resume' }" @click="collapseNavbar">Experience</router-link>
+            <router-link :to="{ name: 'projects' }" class="nav-link " :class="{ 'active': currentRoute === 'projects' }" @click="collapseNavbar">Projects</router-link>
+            <router-link :to="{ name: 'testimonials' }" class="nav-link " :class="{ 'active': currentRoute === 'testimonials' }" @click="collapseNavbar">Reviews</router-link>
+            <router-link :to="{ name: 'contact' }" class="nav-link " :class="{ 'active': currentRoute === 'contact' }" @click="collapseNavbar">Contact</router-link>
           </div>
         </div>
       </div>
@@ -53,6 +33,17 @@ export default {
   watch: {
     $route(to) {
       this.currentRoute = to.name;
+    }
+  },
+  methods: {
+    collapseNavbar() {
+      if (window.innerWidth < 992) {
+        const navbarToggler = document.querySelector('.navbar-toggler');
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        if (navbarCollapse.classList.contains('show')) {
+          navbarToggler.click();
+        }
+      }
     }
   }
 };
@@ -79,6 +70,7 @@ export default {
 }
 
 #navDiv{
-  background-color:beige
+  background-color:beige;
+
 }
 </style>

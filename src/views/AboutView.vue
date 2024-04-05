@@ -4,7 +4,7 @@
       </div>
    <div class="container clearfix pt-3" >
      
-    <div class="shadow p-3 mb-5  rounded" id="aboutDiv">
+    <div class="shadow p-3 mb-5   rounded" id="aboutDiv">
     <!-- 
         <h1 class="fw-bold text-center ">About me</h1>
         <div id="animation">
@@ -65,17 +65,18 @@
              I am a driven and versatile Full Stack Web Developer with a passion for frontend development, a love for sports, and a commitment to making a positive impact. I am excited about the opportunity to contribute my skills and expertise to your team and to embark on new and exciting projects together. 
             </p>
        
+            <a href="https://drive.google.com/file/d/11QmnUpjc3aHjlhfa9hd4T8iJNwFzQ0fS/view?usp=sharing" target="blank"><button class="btn btn-dark" id="cv_button">Download CV</button></a>
           </div>
         </div>
 
-
+     
       </div>
 
       <div class="container">
       <div class="row ">
   <div class="col-sm-6 mb-3  ">
     <h1>Hobbies</h1>
-    <ul class="list-group list-group-flush" id="about-info">
+    <ul class="list-group list-group-flush" id="hobbies">
   <li class="list-group-item">Gym</li>
   <li class="list-group-item">Hockey</li>
   <li class="list-group-item">Voluntary work</li>
@@ -129,6 +130,10 @@ export default {
 
 #aboutDiv{
   background-color:beige
+}
+
+#cv_button{
+  margin-left:40%
 }
 
 </style>

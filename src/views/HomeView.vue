@@ -191,7 +191,7 @@ body {
 }
 
 .icon-row {
-	margin: 45px auto;
+    margin:0%;
 	width: 100%;
 
 }
@@ -199,8 +199,8 @@ i {
     border-radius: 4px;
     cursor: pointer;
     font-size: 44px;
-    margin: 0px 20px;
-    padding: 20px 30px;
+   margin-top:2%;
+    padding: 20px;
     transition: all 400ms ease-in-out;
     color:#eee
 

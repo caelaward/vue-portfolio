@@ -47,7 +47,7 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-rounded-right"></i> <strong>City: </strong>CPT, Crawford </li>
-                  <li><i class="bi bi-rounded-right"></i> <strong>Phone: </strong>+27 6983 9406</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Phone: </strong>+27 76983 9406</li>
                   <li><i class="bi bi-rounded-right"></i> <strong>D.O.B: </strong>24 February 2003</li>
                   <li><i class="bi bi-rounded-right"></i> <strong>Languages: </strong>English , Afrikaans </li>
                 </ul>
@@ -80,8 +80,8 @@
   <li class="list-group-item">Gym</li>
   <li class="list-group-item">Hockey</li>
   <li class="list-group-item">Voluntary work</li>
-  <li class="list-group-item">Watching Netflix</li>
   <li class="list-group-item">Exploring nature</li>
+  <li class="list-group-item">Watching youtube about web developers</li>
 </ul>
   </div>
   <div class="col-sm-6">
@@ -136,4 +136,22 @@ export default {
   margin-left:40%
 }
 
+
+@media (max-width:768px ) {
+  .greeting {
+  margin-bottom:6%;
+  margin-top:3%;
+  margin-left:auto;
+  /* margin:auto auto auto auto  */
+  }
+}
+
+
+
+
+@media (max-width:768px ) {
+  #cv_button{
+  margin-left:auto
+}
+}
 </style>

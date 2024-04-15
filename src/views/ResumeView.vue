@@ -2,7 +2,7 @@
 
  <template>
     <div class="header">
-    <h1 class="mt-2 mb-5">Experience and Education</h1>
+    <h1 class="mt-2 mb-5">Experience </h1>
       </div>
       <section id="resume" class="resume">
     <div class="container">
@@ -61,7 +61,7 @@
      <div>
 
        <div class="row">
-         <h2 class="resume-title">Education</h2>
+         <h2 class="resume-title" id="header">Education</h2>
          <div v-for="education in $store.state.education" :key="education"  id="eduInfo" class="col">
                 <div class="resume-item">
                   <h4> {{education.name}}</h4>
@@ -74,23 +74,7 @@
 </div> 
   
    <h2 class="mt-5 ">Skills</h2>
-<!-- 
- <div class="container " id="skill-container">
-     <div class="row row-cols-1 row-cols-md-3 g-4 ">
- <div v-for="skill in $store.state.skills" :key="skill" >
-            
-            <div class="col-sm-12 mb-3 mb-sm-0 ">
-              <div class="card " id="card_bod" >
-                <div class="card-body ">
-                  <img :src="skill.image" class="img-fluid rounded-start float-start w-25" alt="...">
-                 <h5 class="card-title ">{{skill.type}}</h5>
-                  <p class="card-text ">{{skill.description}}</p>
-                </div>
-              </div>
-            </div>
-     </div>
- </div>
- </div> -->
+
 
       </div>
 
@@ -99,26 +83,6 @@
     </div>
 
 
-<!-- about -->
-<!-- <div class="about">
-   <a class="bg_links social portfolio" href="https://www.rafaelalucas.com" target="_blank">
-      <span class="icon"></span>
-   </a>
-   <a class="bg_links social dribbble" href="" target="_blank">
-      <span class="icon"></span>
-   </a>
-   <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="_blank">
-      <span class="icon"></span>
-   </a>
-   <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="_blank">
-      <span class="icon"></span>
-   </a>
-   <a class="bg_links social linkedin" href="" target="_blank">
-      <span class="icon"></span>
-   </a>
-   <a class="bg_links logo"></a>
-</div> -->
-<!-- end about -->
 <div class="container">
 
 
@@ -235,6 +199,8 @@
   background-color: beige;
   padding:5%
  }
+
+ 
  
  .header {
 	/* background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png'); */
@@ -243,6 +209,7 @@
 	max-height: 500px;
 	height: 100%;
   background-color: black;
+  box-shadow: 10px 10px 8px #888888
 
 
 }

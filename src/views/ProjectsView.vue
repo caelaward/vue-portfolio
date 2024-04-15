@@ -54,12 +54,14 @@ export default {
 	color: #FFF;
 	max-height: 500px;
 	height: 100%;
+  box-shadow: 10px 10px 8px #888888
 
 }
 #cardBody{
    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
    transition: transform 0.3s ease;
-   border-radius:0
+   border-radius:0;
+   box-shadow: 10px 10px 8px #888888
    
 }
 #cardBody:hover{

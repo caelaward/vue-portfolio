@@ -171,34 +171,7 @@ export default {
 </script>
 
 <style scoped>
-/* .container-form {
-  max-width: 100%;
-  padding: 2%;
-  border: 1px solid #ccc;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-#logoC {
-    width: 25px;
-    height: 30px;
-    padding: 2px;
-    mix-blend-mode: multiply;
-    transition: transform 0.3s;
-  } 
- #logoC:hover{
-      transform: scale(1.2);
-    }
-    #infoCard{
-      width:15%
-    } */
-    /* #logoI{
-    
-      max-width: 100%;
-     
-      border: 2px solid #ccc;
-     background-color: white;
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    } */
+
 #contact{
   min-height: 77svh;
 }
@@ -211,6 +184,7 @@ export default {
 	color: #FFF;
 	height: 100%;
   background-color: black;
+  box-shadow: 10px 10px 8px #888888
 
 }
     /*--------------------------------------------------------------

@@ -5,33 +5,7 @@
    <div class="container clearfix pt-3" >
      
     <div class="shadow p-3 mb-5   rounded" id="aboutDiv">
-    <!-- 
-        <h1 class="fw-bold text-center ">About me</h1>
-        <div id="animation">
-          <img
-            src="https://i.postimg.cc/mgtRpNn2/profile2.jpg"
-            class="col-md-6 mb-3 ms-md-3 rounded-circle w-25 "
-            id="img2"
-            alt="..."
-          />
-        </div>
-        
 
-        <p class="fs-5">
-          I am a well minded and hardworking individual who loves a challenge,
-          being unique and thinking out the box is what I do.
-        </p>
-
-        <p class="fs-5">
-          I’m known for being a well rounded person who loves sports, being
-          outdoors as well as being challenged with tasks. When given a task I
-          strive to give my full potential towards it and ensure to complete
-          whats needed from me.
-        </p>
-
-        <p class="fs-5">I’m a self motivated person who always takes 100% responsibility</p> -->
-
-      
       
         
               <div class="row">
@@ -41,7 +15,7 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content" id="about-info" >
             <span><h3 class="greeting ">Hello! I'm Caela Ward </h3></span>
             <p >
-              A passionate and self-motivated Full Stack Web Developer with a love for frontend development and a knack for creating unique designs. 
+              As an aspiring full stack web developer, I thrive on challenges and am fueled by self-motivation.
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -62,10 +36,11 @@
               </div>
             </div>
             <p >
-             I am a driven and versatile Full Stack Web Developer with a passion for frontend development, a love for sports, and a commitment to making a positive impact. I am excited about the opportunity to contribute my skills and expertise to your team and to embark on new and exciting projects together. 
+               My love for sports taught me the value of teamwork, making me a dedicated team player in any project. I approach problems creatively, always thinking outside the box to find innovative solutions. Learning is my passion, and I eagerly embrace new technologies and techniques to enhance my skills.
+In addition to my technical abilities, I have a deep appreciation for nature and animals, finding inspiration in their beauty and resilience. Whether I'm coding or exploring the outdoors, I always give my all and am ready to tackle any task with enthusiasm. Currently seeking opportunities to apply my talents and contribute to dynamic teams.
             </p>
        
-            <a href="https://drive.google.com/file/d/11QmnUpjc3aHjlhfa9hd4T8iJNwFzQ0fS/view?usp=sharing" target="blank"><button class="btn btn-dark" id="cv_button">Download CV</button></a>
+            <a href="https://drive.google.com/file/d/1ry1XL2kxqI_82C5MiOewRZLk7yAFawsd/view?usp=sharing" target="blank"><button class="btn btn-dark" id="cv_button">Download CV</button></a>
           </div>
         </div>
 
@@ -113,6 +88,7 @@ export default {
 	max-height: 500px;
 	height: 100%;
   background-color: black;
+  box-shadow: 10px 10px 8px #888888
 
 }
 

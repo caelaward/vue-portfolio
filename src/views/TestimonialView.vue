@@ -11,7 +11,7 @@
     <div class="card">
      <div class="inner">
         <div class="cover">
-           <p> <img :src="testimonial.image" class="card-img-top w-25 rounded-circle" alt="..."></p>
+           <p > <img :src="testimonial.image" class="card-img-top w-25 rounded-circle" alt="..." id="picture"></p>
             <p class="title">{{testimonial.name}}</p> 
         </div>
         <div class="back">
@@ -29,47 +29,6 @@
 
 
   
-<!--   
-  <div class="testimonials-clean">
-      <div class="container">
-          <div class="intro">
-              <h2 class="text-center">Reviews </h2>
-              <p class="text-center">Our customers love us! Read what they have to say below. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
-          </div>
-          <div class="row people">
-              <div class="col-md-6 col-lg-4 item">
-                  <div class="box">
-                      <p class="description">Caela Morgan Ward is one of the most reliable people I know. She is always there when I need her, no matter what. She is always willing to lend a helping hand and has a positive attitude that is contagious. She is also very organized and efficient, which makes her a great asset to any team. I would highly recommend her for any project or job that she is interested in.</p>
-                  </div>
-                  <div class="author"><img class="rounded-circle" src="https://i.ibb.co/HDBm5mL/tash-copy.jpg">
-                      <h5 class="name">Tashreeq Lee</h5>
-                      <p class="title">Work Colleauge.</p>
-                  </div>
-              </div>
-              <div class="col-md-6 col-lg-4 item">
-                  <div class="box">
-                      <p class="description">Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id.</p>
-                  </div>
-                  <div class="author"><img class="rounded-circle" src="assets/img/3.jpg">
-                      <h5 class="name">Carl Kent</h5>
-                      <p class="title">Founder of Style Co.</p>
-                  </div>
-              </div>
-              <div class="col-md-6 col-lg-4 item">
-                  <div class="box">
-                      <p class="description">Aliquam varius finibus est, et interdum justo suscipit. Vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
-                  </div>
-                  <div class="author"><img class="rounded-circle" src="assets/img/2.jpg">
-                      <h5 class="name">Emily Clark</h5>
-                      <p class="title">Owner of Creative Ltd.</p>
-                  </div>
-              </div>
-            
-          </div>
-      </div>
-  </div>
-
-   -->
 
    
 </template>
@@ -93,6 +52,11 @@ export default {
 
 <style scoped>
 
+#picture{
+  box-shadow: 10px 10px 8px #888888
+ 
+}
+
 .header {
 	/* background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95581/header.png'); */
 	/*background-attachment: fixed;*/
@@ -100,6 +64,8 @@ export default {
 	max-height: 500px;
 	height: 100%;
   background-color: black;
+ 
+  box-shadow: 10px 10px 8px #888888
 
 
 }
@@ -113,8 +79,8 @@ export default {
   width:100%;
   color:black;
   /* font-family: sans-serif; */
-  border-radius:0
-
+  border-radius:0;
+  box-shadow: 10px 10px 8px #888888
 }
 
 .title {

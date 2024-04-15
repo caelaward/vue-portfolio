@@ -2,7 +2,7 @@
 
  <template>
     <div class="header">
-    <h1 class="mt-2 mb-5">Experience </h1>
+    <h1 class="mt-2 mb-5">Education and Experience </h1>
       </div>
       <section id="resume" class="resume">
     <div class="container">
@@ -61,7 +61,7 @@
      <div>
 
        <div class="row">
-         <h2 class="resume-title" id="header">Education</h2>
+         <h2 class="resume-title" id="header"></h2>
          <div v-for="education in $store.state.education" :key="education"  id="eduInfo" class="col">
                 <div class="resume-item">
                   <h4> {{education.name}}</h4>
@@ -293,7 +293,7 @@ body {
    font-family: helvetica;
 }
 
-.about {
+/* .about {
    $cubic: cubic-bezier(0.64, 0.01, 0.07, 1.65);
    $transition: 0.6s $cubic;
    $size: 40px;
@@ -306,9 +306,9 @@ body {
    display: flex;
    justify-content: flex-end;
    align-items: flex-end;
-   transition: all 0.2s ease;
+   transition: all 0.2s ease; */
 
-   .bg_links {
+   /* .bg_links {
       width: $size;
       height: $size;
       border-radius: 100%;
@@ -319,9 +319,9 @@ body {
       border-radius: 100%;
       backdrop-filter: blur(5px);
       position: absolute;
-   }
+   } */
 
-   .logo {
+   /* .logo {
       width: $size;
       height: $size;
       z-index: 9;
@@ -332,7 +332,7 @@ body {
       transition: all 1s 0.2s ease;
       bottom: 0;
       right: 0;
-   }
+   } */
 
    .social {
       opacity: 0;
@@ -343,7 +343,7 @@ body {
       
    }
 
-   &:hover {
+   /* &:hover {
       width: 105px;
       height: 105px;
       transition: all $transition;
@@ -390,7 +390,7 @@ body {
            
             }
          }
-      }
+      } */
  
 
 .wrapper {

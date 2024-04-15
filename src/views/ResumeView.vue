@@ -2,7 +2,7 @@
 
  <template>
     <div class="header">
-    <h1 class="mt-2 mb-5">Education and Experience </h1>
+    <h1 class="mt-2 mb-5">Experience </h1>
       </div>
       <section id="resume" class="resume">
     <div class="container">
@@ -61,7 +61,7 @@
      <div>
 
        <div class="row">
-         <h2 class="resume-title" id="header"></h2>
+         <h2 class="resume-title" id="header">Education</h2>
          <div v-for="education in $store.state.education" :key="education"  id="eduInfo" class="col">
                 <div class="resume-item">
                   <h4> {{education.name}}</h4>

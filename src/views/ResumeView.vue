@@ -151,6 +151,15 @@
          
       </div>
       <!-- end card -->
+      <!-- card -->
+      <div class="card">
+         
+            <img src="https://i.ibb.co/XYGyxCS/SCRUM.png" alt="" class="h-50">
+            <p class="title">SCRUM</p>
+            
+         
+      </div>
+      <!-- end card -->
    
 
    

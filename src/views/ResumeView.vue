@@ -73,7 +73,7 @@
          
 </div> 
   
-   <h2 class="mt-5 ">Skills</h2>
+   <h2 class="resume-title" id="header">Skills</h2>
 
 
       </div>
@@ -151,22 +151,50 @@
          
       </div>
       <!-- end card -->
-      <!-- card -->
-      <div class="card">
-         
-            <img src="https://i.ibb.co/XYGyxCS/SCRUM.png" alt="" class="h-50">
-            <p class="title">SCRUM</p>
-            
-         
-      </div>
-      <!-- end card -->
+      
+
+      
    
 
    
    </div>
 
+   <h1 class="resume-title" id="header">Achievements </h1>
+   <div class="content">
 
+   
+   <!-- card -->
+   <div class="card">
+         
+         <img src="https://i.ibb.co/XYGyxCS/SCRUM.png" alt="" class="h-50">
+        
+         
+      
+   </div>
+   
+   <!-- end card -->
+   <!-- card -->
+   <div class="card">
+         
+         <img src="https://i.ibb.co/RDRBBHB/network-technician-career-path-1.png" alt="" class="h-50">
+        
+         
+      
+   </div>
+   
+   <!-- end card -->
+   <!-- card -->
+   <div class="card">
+         
+         <img src="https://i.ibb.co/MNTCH5k/operating-systems-basics-1.png" alt="" class="h-50">
+        
+         
+      
+   </div>
+   
+   <!-- end card -->
 
+  </div>
   </div>
  </template>
 
@@ -428,6 +456,7 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
+   
 }
 
 @media screen and (max-width: 767px) {
@@ -456,6 +485,7 @@ body {
    flex-direction: column;
    cursor: pointer;
    transition: all 0.3s ease;
+   
 }
 
 .icon {

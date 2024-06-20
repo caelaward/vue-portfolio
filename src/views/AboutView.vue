@@ -15,7 +15,7 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content" id="about-info" >
             <span><h3 class="greeting ">Hello! I'm Caela Ward </h3></span>
             <p >
-              As an aspiring full stack web developer, I thrive on challenges and am fueled by self-motivation.
+              As an aspiring web developer, I thrive on challenges and am fueled by self-motivation.
             </p>
             <div class="row">
               <div class="col-lg-6">

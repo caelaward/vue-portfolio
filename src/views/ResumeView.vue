@@ -186,6 +186,15 @@
    <!-- card -->
    <div class="card">
          
+         <img src="https://i.ibb.co/QcC8Pr5/Figma-1.png" alt="" class="h-50">
+        
+         
+      
+   </div>
+   
+   <!-- end card -->
+   <div class="card">
+         
          <img src="https://i.ibb.co/MNTCH5k/operating-systems-basics-1.png" alt="" class="h-50">
         
          

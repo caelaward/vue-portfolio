@@ -40,7 +40,7 @@
 In addition to my technical abilities, I have a deep appreciation for nature and animals, finding inspiration in their beauty and resilience. Whether I'm coding or exploring the outdoors, I always give my all and am ready to tackle any task with enthusiasm. Currently seeking opportunities to apply my talents and contribute to dynamic teams.
             </p>
        
-            <a href="https://drive.google.com/file/d/1cYQ7omTCpmC_QvNI5HUjYlHYAJG082Va/view?usp=sharing" target="blank"><button class="btn btn-dark" id="cv_button">Download CV</button></a>
+            <a href="https://drive.google.com/file/d/15alIkUvXgY72SUZfwDwl0vt9sBadJLMp/view?usp=sharing" target="blank"><button class="btn btn-dark" id="cv_button">Download CV</button></a>
           </div>
         </div>
 

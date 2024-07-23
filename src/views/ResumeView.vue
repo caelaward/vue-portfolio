@@ -176,7 +176,8 @@
    <!-- card -->
    <div class="card">
          
-         <img src="https://i.ibb.co/RDRBBHB/network-technician-career-path-1.png" alt="" class="h-50">
+         
+         <img src="https://cdn-thumbs.imagevenue.com/04/ce/09/ME18SVIM_t.png" alt="" class="h-50">
         
          
       
@@ -193,9 +194,33 @@
    </div>
    
    <!-- end card -->
+
+   <!-- start card -->
    <div class="card">
          
          <img src="https://i.ibb.co/MNTCH5k/operating-systems-basics-1.png" alt="" class="h-50">
+        
+         
+      
+   </div>
+   
+   <!-- end card -->
+
+   <!-- start card -->
+   <div class="card">
+         
+         <img src="https://cdn-thumbs.imagevenue.com/84/f5/f7/ME18SV87_t.png" alt="" class="h-50">
+        
+         
+      
+   </div>
+   
+   <!-- end card -->
+
+   <!-- start card -->
+   <div class="card">
+         
+    <img src="https://i.ibb.co/RDRBBHB/network-technician-career-path-1.png" alt="" class="h-50">
         
          
       

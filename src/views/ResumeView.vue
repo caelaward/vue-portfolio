@@ -128,7 +128,7 @@
       <div class="card">
          
             <img src="https://cdn-thumbs.imagevenue.com/72/62/7b/ME17GHLJ_t.png" alt="" class="h-50">
-            <p class="title">Javascript</p>
+            <p class="title">Vue js</p>
             
          
       </div>
@@ -142,11 +142,32 @@
          
       </div>
       <!-- end card -->
+
       <!-- card -->
       <div class="card">
          
             <img src="https://iili.io/JhtNltI.png " alt="" class="h-50">
             <p class="title">Node.Js</p>
+            
+         
+      </div>
+      <!-- end card -->
+
+      <!-- card -->
+      <div class="card">
+         
+            <img src="https://cdn-thumbs.imagevenue.com/07/75/4a/ME18TJW4_t.png" alt="" class="h-50">
+            <p class="title">Javascript</p>
+            
+         
+      </div>
+      <!-- end card -->
+
+      <!-- card -->
+      <div class="card">
+         
+            <img src="https://cdn-thumbs.imagevenue.com/d3/16/13/ME18TK8T_t.jpg" alt="" class="h-50">
+            <p class="title">Figma</p>
             
          
       </div>
